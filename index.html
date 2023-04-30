@@ -30,6 +30,26 @@
   <br>
   <button id="yes">🌚Si SoY🌚</button>
   <button id="no">😭Nel PerrO😭</button>
+
+  <script>
+    const vuttonSi = document.getElementById('yes');
+    const vuttonNo = document.getElementById('no');
+
+    const zomosNobios = () => {
+      alert('💞NoW ZoMos MobiOs💞');
+      alert('😱NuesTrA VoDa Is MañaNa😱');
+      location.href = 'https://youtu.be/am1_JLFDFMw?t=19';
+    };
+
+    const ebitarKCRompaMyBobo = () => {
+      vuttonNo.style.position = 'absolute';
+      vuttonNo.style.top = (Math.random() * window.innerHeight + 'px');
+      vuttonNo.style.left = (Math.random() * window.innerWidth + 'px');
+    };
+
+    vuttonSi.addEventListener('click', zomosNobios);
+    vuttonNo.addEventListener('mouseover', ebitarKCRompaMyBobo);
+  </script>
 </body>
 
 </html>
